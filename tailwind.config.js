@@ -5,6 +5,7 @@ export default {
     fontFamily: {
       'Roboto': ['Roboto'],
       'Akshar':['Akshar'],
+      'Open-Sans':['Open Sans']
     },
 
     fontWeight: {
@@ -16,6 +17,12 @@ export default {
       'extra-bold': '800',
       black: '900',
     }, 
+
+    backgroundImage: {
+      'audiolize1': "url('../assets/audiolize1.jpg')",
+      'footer-texture': "url('/img/footer-texture.png')",
+    },
+
 
     //  fontSize: {
     //   mobile: '16px',
@@ -38,10 +45,10 @@ export default {
     screens: {
       sm: '640px',
 
-      md: '768px',
+      md: '1024px',
  
 
-      lg: '1024px',
+      lg: '1080px',
     },
 
     colors: {
