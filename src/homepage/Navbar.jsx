@@ -32,7 +32,7 @@ function Home() {
 
     return (
         <>
-            <nav className="h-[48px] px-[16px] bg-black flex items-center justify-between lg:px-[135px] lg:h-[64px]"> 
+            <nav className="h-[48px] px-[16px] bg-[black] flex items-center justify-between lg:px-[135px] lg:h-[64px]"> 
                 <a href="/" className="text-white font-Akshar text-[32px]"> IYANU AHMED </a> 
                 <ul className="flex lg:hidden" alt="Menu">
                     <button onClick={toggleMobileMenu}>
@@ -52,7 +52,7 @@ function Home() {
                         animate={{ x: 0 }}
                         exit={{ x: '100%' }}
                         transition={{ type: "spring", stiffness: 300, damping: 30 }}
-                        className='fixed top-0 right-0 bottom-0 left-0 bg-black z-50 lg:hidden flex flex-col items-center justify-center'>
+                        className='fixed top-0 right-0 bottom-0 left-0 bg-[black] z-50 lg:hidden flex flex-col items-center justify-center'>
                         <button className="absolute top-4 right-4" onClick={toggleMobileMenu}>
                             <img src={close} alt="Close"/>
                         </button>

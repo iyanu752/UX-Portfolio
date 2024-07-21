@@ -5,6 +5,8 @@ import Footer from './homepage/footer';
 import Audiolize from './pages/Audiolize';
 import About from './pages/About';
 import Project from './pages/Projects';
+import Allurereach from './pages/Allurereach';
+
 
 const router = createBrowserRouter([
   {
@@ -23,11 +25,16 @@ const router = createBrowserRouter([
     path: '/audiolize',
     element: <Audiolize />,
   },
+{
+  path: '/allurereach',
+  element: <Allurereach/>
+}
+ 
 ]);
 
 function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-[black]">
       <Navbar />
       <RouterProvider router={router} />
       <Footer />

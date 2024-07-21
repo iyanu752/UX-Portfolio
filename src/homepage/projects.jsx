@@ -1,6 +1,8 @@
-import Audiolize from '../assets/Audiolize.png'
+import Audiolize from '../assets/Audiolize.svg'
 import Audiolize1 from '../assets/audiolize1.jpg'
-import { motion} from "framer-motion"
+import Allurereach1 from '../assets/allurereach.jpg';
+import allurereach from '../assets/allurereach.svg';
+import {motion} from "framer-motion"
 
 
 const fadeInUp = {
@@ -42,6 +44,60 @@ function Projects() {
             >
                 PROJECTS
             </motion.p>
+
+
+            <motion.div     
+                initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInRight}
+                className="bg-[grey] px-[16px] py-[32px] lg:mb-[90px] mb-[24px] md:mb-[48px] md:w-[900px] lg:w-[1170px] lg:py-[72px] lg:px-[70px] hover:shadow-[5px_5px_0px_0px_rgba(40,46,217)] transform hover:translate-y-[-5px]"
+                style={{
+                    backgroundImage: `url(${Allurereach1})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                }}
+               
+            >
+                <div className="flex flex-row items-center">
+                    <img src={allurereach} alt="audiolize-banner" />
+                    <p className="font-Open-Sans pl-[8px] font-bold text-[32px] text-white">
+                        ALLURE REACH
+                    </p>
+                </div>
+                <div className="flex flex-col">
+                    <p className="text-[20px] font-normal text-white mt-[86px] font-Akshar">
+                        UI/UX DESIGN, WEB DEVELOPMENT
+                    </p>
+                    <p className="text-[32px] w-[276px] font-bold text-white font-Akshar mt-[32px] lg:text-[36px] lg:w-[446px]">
+                        REDESIGNING AND DEVELOPING A SOCIAL MEDIA MARKETING WEB PAGE
+                    </p>
+                    <p className="text-white w-[265px] font-Roboto text-[16px] mt-[32px] lg:w-[331px]">
+                        I designed and developed the website of a social media marketing agency.
+                    </p>
+                    <div>
+                        <a href="/Allurereach">
+                            <motion.button
+                             whileHover={{
+                            y: -5,
+                            transition: { duration: 0.2 },
+                        }}
+                        className="w-[136px] h-[48px] border-2 border-white mt-[32px] hover:bg-white font-Akshar text-[16px] text-white hover:text-black hover:shadow-[5px_5px_0px_0px_rgba(40,46,217)] transform hover:translate-y-[-5px]">
+                                                        VIEW CASE STUDY
+                            </motion.button>
+                        </a>
+                    </div>
+                </div>
+            </motion.div>
+
+
+
+
+
+
+
+
+
+
+
             <motion.div     
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInRight}
                 className="bg-[grey] px-[16px] py-[32px] md:w-[900px] lg:w-[1170px] lg:py-[72px] lg:px-[70px] hover:shadow-[5px_5px_0px_0px_rgba(40,46,217)] transform hover:translate-y-[-5px]"

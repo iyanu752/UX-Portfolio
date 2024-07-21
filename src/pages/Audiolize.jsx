@@ -63,11 +63,11 @@ const fadeInUp = {
 export default function Audiolize() {
     return (
         <>
-            <div className='px-[16px] py-[62px] text-white lg:py-[119px] lg:px-[135px]'>
+            <div className='px-[16px] py-[24px] text-white lg:py-[119px] lg:px-[135px]'>
 
             <div>
                 <motion.h1  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                className='text-center text-[40px] font-Akshar font-bold  pb-[24px]'> Audiolize </motion.h1>
+                className='text-center text-[60px] lg:text-[120px] font-Akshar font-bold  pb-[24px]'> Audiolize </motion.h1>
                 <motion.p initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
                 className='text-[16px] pb-[24px] text-center font-Roboto lg:text-[24px]'>Enhancing Mobile Reading Experience Using A PDF To Audiobook Feature</motion.p>
                 <motion.img initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInLeft}
@@ -77,7 +77,7 @@ export default function Audiolize() {
             <div className=' py-[24px]'>
             <motion.article
             initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-             className='text-[16px] font-Roboto lg:text-[20px]'>
+             className='text-[16px] lg:w-[700px] font-Roboto lg:text-[20px]'>
                 Audiolize is a mobile application which not only allows users to listen to audio books on the go,  it
                 also enables users to convert their pdf novels into audio books.
                 Audiolize is my final project for the level 2 UX design bootcamp.
@@ -87,7 +87,6 @@ export default function Audiolize() {
                   className='pt-[24px] font-Roboto'>
                     <li> Role: UI + UX Designer</li>
                     <li>Client: Entry level bootcamp(level 2 UX design)</li>
-                    <li>Tools: Figma</li>
                     <li>Project Duration: 4 weeks</li>
                 </motion.ul>
 
@@ -103,10 +102,10 @@ export default function Audiolize() {
 
                 <motion.h2 
                  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                className='pt-[48px] pb-[16px] font-Akshar  text-[24px]'>MY ROLE</motion.h2>
+                className='pt-[48px] pb-[16px]  font-Akshar  text-[24px] lg:text-[48px]'>MY ROLE</motion.h2>
                 <motion.article
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                 className='pb-[24px] font-Roboto text-[16px] lg:text-[20px]'>
+                 className='pb-[24px] lg:w-[700px] font-Roboto text-[16px] lg:text-[20px]'>
                     During my time with entry level, i was assigned to submit a UX design project  by the end of the 
                     bootcamp. After a lot of brain storming on possible projects to build, i decided to build a project 
                     to solve problems which i encountered, Hence Audiolize was created
@@ -119,10 +118,10 @@ export default function Audiolize() {
             <div className='pt-[71px]'>
                 <motion.h1
                  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                  className='text-center font-Akshar font-bold text-[40px]'>DISCOVERY</motion.h1>
+                  className='text-center font-Akshar font-bold text-[40px]  lg:text-[100px]'>DISCOVERY</motion.h1>
                 <motion.p
                  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                  className='py-[24px] font-Roboto text-[16px] lg:text-[20px]'>
+                  className='py-[24px] lg:w-[700px] font-Roboto text-[16px] lg:text-[20px]'>
                     An Audiobook is a recording of books or other works being read out aloud. Audiolize aims to 
                     enable people to read audiobooks and also convert their books downloaded as PDF into
                     audiobooks using a realistic sounding text to speech bot.
@@ -133,8 +132,8 @@ export default function Audiolize() {
 
                 <motion.div
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInRight}>
-                    <h2 className='text-[24px] font-Akshar  pb-[16px]'> UNDERSTANDING THE MARKET </h2>
-                    <article className=' lg:w-[634px] font-Roboto text-[16px] lg:text-[20px]'>
+                    <h2 className='text-[24px] font-Akshar lg:text-[48px]  pb-[16px]'> UNDERSTANDING THE MARKET </h2>
+                    <article className=' lg:w-[700px] font-Roboto text-[16px] lg:text-[20px]'>
                         For this project, i conducted market and competitive 
                         research to understand the needs of an audiobook 
                         application. I also conducted various interviews 
@@ -161,8 +160,8 @@ export default function Audiolize() {
 
             <motion.div
             initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-                <h2 className='text-[24px] font-Akshar  pb-[16px]'>TALKING TO PROSPECTIVE CUSTOMERS</h2>
-                <article className='text-[16px] font-Roboto lg:text-[20px]'>
+                <h2 className='text-[24px] font-Akshar lg:text-[48px]  pb-[16px]'>TALKING TO PROSPECTIVE CUSTOMERS</h2>
+                <article className='text-[16px] lg:w-[700px] font-Roboto lg:text-[20px]'>
                 To gather more qualitative data about our potiential user’s motivations,  pain points, and needs, I 
                 interviewed 4 different people who are constant readers of web novels and listeners of 
                 audiobooks.
@@ -203,7 +202,7 @@ export default function Audiolize() {
             <div className='py-[48px]'>
                 <motion.h2
                  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                   className='text-[24px] font-Akshar  pb-[16px]'>INSIGHTS AND ISSUES</motion.h2>
+                   className='text-[24px] lg:text-[48px] font-Akshar  pb-[16px]'>INSIGHTS AND ISSUES</motion.h2>
                 <motion.ul 
                  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInLeft}
                 className='font-Roboto text-[16px] lg:text-[20px]'>
@@ -234,14 +233,14 @@ export default function Audiolize() {
             <div className='pt-[71px]'>
                 <motion.h1
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                 className='text-center font-Akshar font-bold pb-[24px] text-[40px]'>INFORMATION ARCHITECTURE</motion.h1>
+                 className='text-center font-Akshar font-bold pb-[24px] text-[40px] lg:text-[100px]'>INFORMATION ARCHITECTURE</motion.h1>
        
                 <motion.h2
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                   className='text-[24px] font-Akshar pt-[48px]  pb-[16px]'>SITE MAP</motion.h2>
+                   className='text-[24px] lg:text-[48px] font-Akshar pt-[48px]  pb-[16px]'>SITE MAP</motion.h2>
                 <motion.article
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                 className='font-Roboto text-[16px] lg:text-[20px] pb-[24px] '>
+                 className='font-Roboto text-[16px] lg:w-[700px] lg:text-[20px] pb-[24px] '>
                     I created a site map for Audiolize that incorporated the core content for listening to audiobooks,
                     adding downloaded audiobooks into Audiolize, and choosing the voice for the reader.
                 </motion.article>
@@ -250,10 +249,10 @@ export default function Audiolize() {
                 className='py-[24px] border-white border-2 shadow-[5px_5px_0px_0px_rgba(40,46,217)] ' src={Flow} alt='user flow'/>
                 <motion.h2
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                 className='text-[24px] font-Akshar pt-[48px]  pb-[16px]'>USER FLOW</motion.h2>
+                 className='text-[24px] lg:text-[48px] font-Akshar pt-[48px]  pb-[16px]'>USER FLOW</motion.h2>
                 <motion.article 
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                className=' font-Roboto text-[16px] lg:text-[20px] pb-[24px]'>
+                className=' font-Roboto text-[16px] lg:w-[700px] lg:text-[20px] pb-[24px]'>
                     Using the sitemap, I created a user flow for a scenario where the user wants to save and listen to an audio book and when 
                     a user wants to convert their PDF to an audio book 
                 </motion.article>
@@ -268,7 +267,7 @@ export default function Audiolize() {
             <div className='pt-[71px]'>
                 <motion.h1 
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                className='text-center font-Akshar font-bold text-[40px] pb-[24px]'>SKETCHES AND WIREFRAMES</motion.h1>
+                className='text-center font-Akshar font-bold text-[40px] lg:text-[100px] pb-[24px]'>SKETCHES AND WIREFRAMES</motion.h1>
                 <motion.img 
                  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInLeft}
                 className='py-[24px] border-white border-2 shadow-[5px_5px_0px_0px_rgba(40,46,217)] '  src={Sketch} alt='audiolizeImg'/>
@@ -277,10 +276,10 @@ export default function Audiolize() {
                  className='pt-[16px] text-[#9ca3af] text-[16px]'>Brainstorm sketches on early concepts of content layout </motion.p>
                 <motion.h2 
                   initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                  className='text-[24px] font-Akshar pt-[48px]  pb-[16px]'>WIREFRAMES</motion.h2>
+                  className='text-[24px] lg:text-[48px] font-Akshar pt-[48px]  pb-[16px]'>WIREFRAMES</motion.h2>
                 <motion.article
                   initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                   className='font-Roboto text-[16px] lg:text-[20px] pb-[24px]'>    
+                   className='font-Roboto text-[16px] lg:w-[700px] lg:text-[20px] pb-[24px]'>    
                 When creating the wireframe of Audiolize, I was more focused on the layout as it was said to be my weakness and one of the most challenging aspects of design for me.
                 I was meticulous about things like spacing, grids and colums, icons and more, my end goal was to create a layout that was not only user friendly but also aesthetically 
                 pleasing
@@ -294,10 +293,10 @@ export default function Audiolize() {
             <div className='pt-[71px]'>
                 <motion.h2  
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                 className='text-[24px] font-Akshar pt-[48px]  pb-[16px]'>DESIGN SYSTEM</motion.h2>
+                 className='text-[24px] lg:text-[48px] font-Akshar pt-[48px]  pb-[16px]'>DESIGN SYSTEM</motion.h2>
                 <motion.article 
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                className='font-Roboto text-[16px] lg:text-[20px] pb-[24px]'>    
+                className='font-Roboto text-[16px] lg:w-[700px] lg:text-[20px] pb-[24px]'>    
                 Using the wireframes layouts, i created a design system to ease the flow of creation and provide uniformity when creating the high fidelity design,
                 Here i was able to decide on what colour pallete to use for Audiolize.
                 </motion.article>
@@ -310,7 +309,7 @@ export default function Audiolize() {
             <div className='pt-[71px]'>
                 <motion.h1 
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                className='text-center font-Akshar font-bold text-[40px] pb-[24px]'>HIGH FIDELITY DESIGNS</motion.h1>
+                className='text-center font-Akshar font-bold text-[40px] lg:text-[100px] pb-[24px]'>HIGH FIDELITY DESIGNS</motion.h1>
                 <motion.img
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInRight}
                  className='border-white border-2 shadow-[5px_5px_0px_0px_rgba(40,46,217)]' src={Final} alt='final design'/>
@@ -319,10 +318,10 @@ export default function Audiolize() {
             <div className='pt-[71px]'>
             <motion.h2 
             initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-             className='text-[24px] font-Akshar pt-[48px]  pb-[16px]'>LOOKING FOWARD</motion.h2>
+             className='text-[24px] lg:text-[48px] font-Akshar pt-[48px]  pb-[16px]'>LOOKING FOWARD</motion.h2>
                 <motion.article 
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                className='font-Roboto text-[16px] lg:text-[20px] pb-[24px]'>    
+                className='font-Roboto text-[16px] lg:w-[700px] lg:text-[20px] pb-[24px]'>    
                 Audiolize is a project i decided to venture into as my submition project for entry level bootcamp,
                 It is a project which i also fonud to solve a personal problemm of mine so going foward my next steps with 
                 audiolize will most likely be to 
@@ -339,12 +338,12 @@ export default function Audiolize() {
             <div className='pt-[71px]'>
             <motion.h2  
             initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-             className='text-[24px] font-Akshar pt-[48px]  pb-[16px]'>PERSONAL LEARNINGS</motion.h2>
+             className='text-[24px] lg:text-[48px] font-Akshar pt-[48px]  pb-[16px]'>PERSONAL LEARNINGS</motion.h2>
                 <motion.ul 
                  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInLeft}
                 className='font-Roboto text-[16px] lg:text-[20px]'>
                     <li className='pb-[8px] font-bold'>1.) Research first, Deaign after</li>
-                    <article className='pb-[48px]'>
+                    <article className='pb-[48px] lg:w-[700px]'>
                     One major mistake I made when carrying out this project was not having a proper flow of research before 
                     working on the sketches and the wireframes, this lead me to go back and make changes based on user needs which 
                     consumed more time. On working on this project, I have have been able to make out the workflow from the research to the design.
@@ -355,7 +354,7 @@ export default function Audiolize() {
                  initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInLeft}
                  className='font-Roboto text-[16px] lg:text-[20px]'>
                     <li className='pb-[8px] font-bold'>2.) Comunicating with users and interviewing users</li>
-                    <article className='pb-[48px]'>
+                    <article className='pb-[48px] lg:w-[700px]'>
                     During this project, i had to talk to several people who had used audiobook applications, i discovered features they would like
                     in an audiobook app which i was able to implement, I also enjoyed talking to people from different diversities.
                     </article>   
@@ -365,7 +364,7 @@ export default function Audiolize() {
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInLeft}
                 className='font-Roboto text-[16px] lg:text-[20px]'>
                     <li className='pb-[8px] font-bold'>3.)Working against time</li>
-                    <article className='pb-[48px]'>
+                    <article className='pb-[48px] lg:w-[700px]'>
                     For our project for entry level bootcamp we had a time limit which i had to work with, it was challenging but i was able to deliver 
                     before the deadline.
                     </article>   
@@ -375,16 +374,16 @@ export default function Audiolize() {
             <div className='pt-[71px]'>
                 <motion.h1
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                 className='text-center font-Akshar font-bold text-[40px] pb-[24px]'>CERTIFICATE AND RECOMMENDATION</motion.h1>
+                 className='text-center font-Akshar font-bold text-[40px] lg:text-[100px] pb-[24px]'>CERTIFICATE AND RECOMMENDATION</motion.h1>
                 <motion.h2 
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                  className='text-[24px] font-Akshar pt-[48px]  pb-[16px]'>CERTIFICATE</motion.h2>
+                  className='text-[24px] lg:text-[48px] font-Akshar pt-[48px]  pb-[16px]'>CERTIFICATE</motion.h2>
                 <motion.img
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInLeft}
                  className='border-white border-2 shadow-[5px_5px_0px_0px_rgba(40,46,217)]' src={Cert} alt='Certificate'/>
                 <motion.h2 
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
-                 className='text-[24px] font-Akshar pt-[48px]  pb-[16px]'>LETTER OF RECOMMENDATION</motion.h2>
+                 className='text-[24px] lg:text-[48px] font-Akshar pt-[48px]  pb-[16px]'>LETTER OF RECOMMENDATION</motion.h2>
                 <motion.img 
                 initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInRight}
                 className='border-white border-2 shadow-[5px_5px_0px_0px_rgba(40,46,217)]' src={Ref} alt='final design'/>

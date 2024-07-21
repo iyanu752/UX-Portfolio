@@ -33,11 +33,20 @@ function Footer() {
                  >
                  PROJECTS
                  </p>
+
+                 <p
+                className="pt-[16px] text-[gray] font-Roboto text-[24px] hover:text-white"><a href="/allurereach"
+                >
+                Allure reach</a>
+                </p>
+
                 <p
                 className="pt-[16px] text-[gray] font-Roboto text-[24px] hover:text-white"><a href="/audiolize"
                 >
                 Audiolize</a>
                 </p>
+
+           
             </motion.div>
 
             <motion.div
@@ -65,10 +74,6 @@ function Footer() {
 
             <motion.div
              initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInRight}
-            // initial={{ x: 100, opacity: 0 }}
-            // animate={isInView ? { x: 0, opacity: 1 } : {}}
-            // transition={{ duration: 0.5 , ease: "easeOut" }}
-            // ref={ref}
             >
                 <p
                  className=" font-Akshar text-[32px] text-white lg:text-40"
